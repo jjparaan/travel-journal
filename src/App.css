@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.travel--journal {
+    height: 100vh;
+    background-color: rgba(225, 225, 225, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel--journal_card {
+    width: 100%;
+    max-width: 550px;
+    height: 704px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.travel--journal_card::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

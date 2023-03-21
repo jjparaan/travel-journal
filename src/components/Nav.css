@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav--container {
+    height: 55px;
+    margin-bottom: 45px;
+    background-color: #F55A5A;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browser--logo {
+    margin-right: 7px;
+}
+
+.nav--title {
+    font-size: 14.4608px;
+    letter-spacing: -0.075em;
+}
